@@ -6,6 +6,6 @@
 #     print(i)
 import time
 for seconds in range(10,0,-1):
-    print(seconds)
+    print("\a",seconds)
     time.sleep(1)
 print("Happy New Year 2025")
