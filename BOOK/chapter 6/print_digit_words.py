@@ -1,6 +1,12 @@
 n=(int(input("Enter a number : ")))
+new=0
+n1=n
 while n!=0:
     num=n%10
+    new=new*10+num
+    n//=10
+while new!=0:
+    num=new%10
     if num==1:
         print("one",end=" ")
     if num==2:
@@ -21,5 +27,5 @@ while n!=0:
         print("nine",end=" ")
     if num==0:
         print("zero",end=" ")
-    n//=10
+    new//=10
     
