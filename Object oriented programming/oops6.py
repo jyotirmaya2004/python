@@ -1,0 +1,1 @@
+a=input("Enter number to add two digit : ")

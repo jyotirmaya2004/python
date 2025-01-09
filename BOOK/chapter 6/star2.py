@@ -1,5 +1,5 @@
 r=(int(input("enetr row number : ")))
-for i in range(r+1):
+for i in range(r):
     for k in range(i):
         print("  ",end="")
     for j in range(-(r-i),0):
