@@ -77,3 +77,29 @@ s23="Hello123"
 print(s23.isalnum())
 s24="Hello"
 print(s24.isalnum())
+#replacing string with another string
+str="The quick brown fox jumps over the lazy dog"
+s1="quick"
+s2="slow"
+s3=str.replace(s1,s2)
+print(s3)
+
+#spliting and joining the string
+str="The quick brown fox jumps over the lazy dog"
+s1=str.split()
+print(s1)
+s2=" ".join(s1) #joining the string with space
+print(s2)
+
+#changing case of string
+str="Hello World"
+s1=str.upper()
+print(s1)
+s2=str.lower()
+print(s2)
+s3=str.swapcase()
+print(s3)
+s4=str.title()
+print(s4)
+s5=str.capitalize()
+print(s5)
