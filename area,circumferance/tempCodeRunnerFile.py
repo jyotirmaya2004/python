@@ -1,3 +1,4 @@
-a=int(input("enter a side of square: "))
-print("circumferanc=",4*a)
-print("area=",a*a)
+a=int(input("Enter a : "))
+b=int(input("Enter b : "))
+c=int(input("Enter c : "))
+print("The largest number :",max(a,b,c))
