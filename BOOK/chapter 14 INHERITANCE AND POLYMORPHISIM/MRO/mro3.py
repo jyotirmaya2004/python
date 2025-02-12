@@ -15,3 +15,4 @@ class D(B, C):
 
 d = D()
 d.method()
+print(D.mro())
